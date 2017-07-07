@@ -1,0 +1,11 @@
+{
+  "name": "siberian",
+  "version": "1.0.0",
+  "description": "Siberian",
+  "cordova": {
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  }
+}
