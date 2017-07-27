@@ -29,6 +29,12 @@
          <access origin="itms:*" launch-external="yes" />
          <access origin="itms-apps:*" launch-external="yes" />
 
+         <config-file target="*-Info.plist" parent="UIBackgroundModes">
+             <array>
+                 <string>audio</string>
+             </array>
+         </config-file>
+
          <config-file target="*-Info.plist" parent="NSLocationWhenInUseUsageDescription">
              <string>Use the GPS for live navigation</string>
          </config-file>
