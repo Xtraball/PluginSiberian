@@ -40,7 +40,7 @@
          </config-file>
 
          <config-file target="*-Info.plist" parent="NSCalendarsUsageDescription">
-             <string>Be notified of the App events.</string>
+             <string>Be notified of the App events</string>
          </config-file>
 
          <config-file target="*-Info.plist" parent="NSContactsUsageDescription">
@@ -48,7 +48,11 @@
          </config-file>
 
          <config-file target="*-Info.plist" parent="NSMotionUsageDescription">
-         <string>Smart navigation with TaxiRide and other nice features</string>
-     </config-file>
+            <string>Smart navigation with TaxiRide and other nice features</string>
+         </config-file>
+
+         <config-file target="*-Info.plist" parent="NFCReaderUsageDescription">
+             <string>Allow NFC Tag enabled features</string>
+         </config-file>
      </platform>
 </plugin>
