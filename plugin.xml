@@ -63,8 +63,9 @@
             <string>Smart navigation with TaxiRide and other nice features</string>
         </config-file>
 
-        <config-file target="*-Info.plist" parent="NFCReaderUsageDescription">
+        <!-- Removes NFC reader! -->
+        <!--config-file target="*-Info.plist" parent="NFCReaderUsageDescription">
             <string>Allow NFC Tag enabled features</string>
-        </config-file>
+        </config-file-->
     </platform>
 </plugin>
