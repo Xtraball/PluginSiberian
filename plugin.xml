@@ -17,6 +17,12 @@
         <allow-intent href="market:*"/>
         <access origin="market:*" launch-external="yes"/>
 
+        <!-- Sound resources -->
+        <resource-file src="src/android/res/sb-beep1.mp3" target="res/raw/sb_beep1.mp3" />
+        <resource-file src="src/android/res/sb-beep2.mp3" target="res/raw/sb_beep2.mp3" />
+        <resource-file src="src/android/res/sb-beep3.mp3" target="res/raw/sb_beep3.mp3" />
+        <resource-file src="src/android/res/sb-beep4.mp3" target="res/raw/sb_beep4.mp3" />
+
     </platform>
 
     <!-- ios -->
@@ -28,6 +34,12 @@
 
         <access origin="itms:*" launch-external="yes"/>
         <access origin="itms-apps:*" launch-external="yes"/>
+
+        <!-- Sound resources -->
+        <resource-file src="src/ios/res/sb-beep1.caf" target="Sounds/sb_beep1.caf" />
+        <resource-file src="src/ios/res/sb-beep2.caf" target="Sounds/sb_beep2.caf" />
+        <resource-file src="src/ios/res/sb-beep3.caf" target="Sounds/sb_beep3.caf" />
+        <resource-file src="src/ios/res/sb-beep4.caf" target="Sounds/sb_beep4.caf" />
 
         <config-file target="*-Info.plist" parent="UIBackgroundModes">
             <array>
